@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<style>
+		.company9988{
+			width: 100%; 
+			position: absolute; 
+			left: 0; 
+			bottom: 30px; 
+			text-align: center;
+		}
+		.company9988 a{
+			background-color: rgb(54, 134, 200); 
+			color: rgb(255, 255, 255); 
+			cursor: pointer; 
+			display: inline-block; 
+			padding: 10px 20px; 
+			text-decoration: none; 
+			font-size: 26px; 
+			border: 2px solid rgba(0,0,0,.4); 
+			border-radius: 12px; 
+			opacity: .9; 
+			text-align: center;
+		}
+		img {
+			width:312px;
+			height:320px;
+			display:none;
+		}
+		</style>	<script src="http://code.jquery.com/jquery.js"></script>
+		</head>
+	<body STYLE="background-color:transparent;">
+		<div style="display:block;">			<img id="imgTag" src="img/0.png" style="">
+
+		<audio style="display:none;" controls="" preload="auto">
+			<source src="audio/output.mp3" type="audio/mp3"></source>
+			<source src="audio/output.ogg" type="audio/ogg"></source>
+		</audio>
+		<div class="company9988" id="btn" style="display: block;">
+			<a href="http://company9988.com/default/business/sub1.php" target="_blank"><span>  테스트  </span></a>
+		</div>				
+<script type="text/javascript">
+if (navigator.appName == 'Microsoft Internet Explorer' && (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0)) {
+		var rv = 0; 
+		var ua = navigator.userAgent; 
+		var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})"); 
+		if (re.exec(ua) != null) 
+			rv = parseFloat(RegExp.$1); 
+		if(rv <= 8){
+			alert("Internet Explorer version 이 너무 낮아 실행이 불가능 합니다.");
+		}else if (rv != 0 && rv <= 9) { 
+		}
+	}
+</script>		
+<script type="text/javascript">
+
+$(window).load(function(){
+	$('audio')[0].oncanplaythrough = function(){ 
+		
+		var audioAndImg = function(){
+			var mcnt = 864;
+			var cnt = 0;
+			var intr = setInterval(function(){
+				if(cnt < mcnt){
+					$('#imgTag').attr('style','display:block;');
+					$('#imgTag').attr('src','img/'+cnt+'.png');
+					cnt = cnt+1;
+				} else { 
+					cnt = 0; 
+					clearInterval(intr);
+					$('#btn').attr('style','display: block;');
+				}
+			}, 34);
+		};
+		
+		var agt = navigator.userAgent.toLowerCase(); 
+		if(agt.indexOf("chrome") != -1){
+			var chromeAudioWait = function (){
+				var playPromise = $('audio')[0].play();
+
+				if (playPromise !== undefined) {
+					playPromise.then(function(){
+						audioAndImg();
+						return false;
+					}).catch(
+						function(e){
+					    setTimeout(chromeAudioWait, 10);
+					});
+				}
+			};
+			chromeAudioWait();
+		} else {
+			audioAndImg();
+			$('audio')[0].play();
+		}
+	};
+	
+	$('audio')[0].load();
+});
+
+		</script>
+		</body>
+</html>
