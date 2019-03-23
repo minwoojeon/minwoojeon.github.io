@@ -37,8 +37,8 @@
 	}
 	
 	$HEADER_CONS_VALUES = 1;
-	$API_KEY = "AIzaSyA65uCkShenE0TcfRcgTIuveOZP0aMGS7A";
-	$PROJECT_ID = "do-dream";
+	$API_KEY = "";
+	$PROJECT_ID = "";
 	include_once('header.php');
 	include_once('navigation.php');
 
