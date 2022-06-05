@@ -424,7 +424,7 @@
                                 </li>
                             </ol>
                         </div>
-                        <div class="_jobRefPR" id="_bf_jrPR7">
+                        <div class="_jobRefPR" id="_bf_jrPR8">
 
                             <h3>(주) 마블러스</h3>
                             <h5>업무 간략 소개</h5>
@@ -484,6 +484,12 @@
                                 </thead>
                                 <!-- 크고 작은 프로젝트 분할 필요, tag성 DB관리 필요함. -->
                                 <tbody>
+                                    <!-- 22.04.18 ~ 22.04.29 -->
+                                    <tr>
+                                        <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(58);">evers NFT민팅 구현</a></td>
+                                        <td>BE + FE</td>
+                                        <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(58);">Y</a></td>
+                                    </tr>
                                     <!-- 22.02.13 ~ 22.03.11 -->
                                     <tr>
                                         <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(57);">메디박스 서비스 구축 작업 1차</a></td>
@@ -496,9 +502,9 @@
                                         <td>BE + FE + APP</td>
                                         <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(56);">Y</a></td>
                                     </tr>
-                                    <!-- 21.06.01 ~ 21.06.30 -->
+                                    <!-- 21.06.01 ~ (현재) -->
                                     <tr>
-                                        <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(55);">COSMAX-NBT 보수 작업 1차</a></td>
+                                        <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(55);">COSMAX-NBT 정기 유지 보수</a></td>
                                         <td>BE + FE</td>
                                         <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(55);">Y</a></td>
                                     </tr>
@@ -2264,10 +2270,10 @@
                         </div>
                         <div class="_jobRefSubPR" id="_bf_jrSubPR55">
                             <h3>풀스택 작업</h3>
-                            <h5>COSMAX-NBT 보수 작업 1차</h5>
+                            <h5>COSMAX-NBT 유지 보수</h5>
                             <ul class="feature-icons">
                                 <li class="fa-coffee">담당 : 풀스택 개발</li>
-                                <li class="fa-users">팀원 : PM 1명(도급사 대표) 외 본인</li>
+                                <li class="fa-users">팀원 : PM 1명(작업관리 대표) 외 본인</li>
                                 <li class="fa-book"><a href="http://cosmaxnbt-fit.com/" target="_blank">수정된 페이지</a></li>
                             </ul>
                             <div class="features">
@@ -2282,6 +2288,8 @@
                                                 <li>FR) 쿠폰 정렬 기준 수정</li>
                                                 <li>ADM) 엑셀과 관련된 기능 개편 (회원 관리, 구매내역 관리, 재배송관리)</li>
                                                 <li>ADM) 관리자 기능 수정</li>
+                                                <li>서버 이관(관련 사이트 7종), 스케일 아웃(스토리지 업)</li>
+                                                <li>ADM) 결제, 정기배송 및 연단위 정기 유지보수</li>
                                             </ol>
                                         </ul>
                                     </div>
@@ -2361,6 +2369,34 @@
                                     <a href="#" class="image">
                                         <iframe width="560" height="315" src="/images/2022/medibox/012946.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </a>
+                                </article>
+                            </div>
+                        </div>
+                        
+                        <div class="_jobRefSubPR" id="_bf_jrSubPR58">
+                            <h3>백엔드, 프론트 작업</h3>
+                            <h5>evers NFT민팅 구현</h5>
+                            <ul class="feature-icons">
+                                <li class="fa-coffee">담당 : 백엔드, 프론트 개발</li>
+                                <li class="fa-users">팀원 : Evers 운영팀원</li>
+                                <li class="fa-book"><a href="https://discord.com/channels/951671965272391714/" target="_blank">디스코드</a></li>
+                            </ul>
+                            <div class="features">
+                                <article>
+                                    <div>
+                                        <h4>evers NFT민팅 구현</h4>
+                                        <ul>
+                                            <li>장소 : 재택</li>
+                                            <li>사용스킬 : Solidity, klaytn 기반 IDE, javascript/jQuery</li>
+                                            <li>상세 작업</li>
+                                            <ol style="list-style-type : lower-roman;">
+                                                <li>OG/WL/일반 민터의 구매, 제한, 비용 등의 기본 기능 Solidity로 구현</li>
+                                                <li>리빌, 이미지 리소스 AWS 관리형태로 개발</li>
+                                                <li>1차 거래이후 남는 재고를 2차 거래에 그대로 사용할 수 있도록 제어로직 구현</li>
+                                                <li>민팅 종료시 민팅 결과를 뽑을 수 있도록 통계 데이터 구현(화면X, OG/WL/일반 판매관련 총량/비용/비율 등의 정보 출력)</li>
+                                            </ol>
+                                        </ul>
+                                    </div>
                                 </article>
                             </div>
                         </div>
