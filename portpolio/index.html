@@ -552,7 +552,7 @@
                                     </tr>
                                 </thead>
                                 <!-- 크고 작은 프로젝트 분할 필요, tag성 DB관리 필요함. -->
-                                <tbody>
+                                <tbody id="_pj_op">
                                     <!-- 22.11.24 ~ 23.01.31 웅진헬스원 - 소분판매플랫폼 (백세건강 문진 포함) - 전체 기능 -->
                                     <tr class="pj_page_4 pj_page">
                                         <td><a href="#!" onclick="alert('내용 작성중입니다.')">웅진헬스원 - 소분판매플랫폼 (백세건강 문진 포함) 개발</a></td>
@@ -700,6 +700,7 @@
                                         <td>익스텐션 소스 수정 작업 (JS 언어)</td>
                                         <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(40);">Y</a></td>
                                     </tr>
+
                                     <tr class="pj_page_2 pj_page">
                                         <!-- 문화정보원 20.09.13 ~ 20.12.23, 추가 배포 21.03.03 -->
                                         <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(39);">신규 공공누리 플레이어 개발 작업</a></td>
@@ -905,24 +906,21 @@
                                         <td><a href="#!" onclick="bf_ppr_toggle.refSubPR(17);">N</a></td>
                                     </tr>
                                 </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="2"></td>
-                                        <td>
-                                            <div class="_page">
-                                                <span class="active page-no">1</span>
-                                                <span class="page-no">2</span>
-                                                <span class="page-no">3</span>
-                                                <span class="page-no">4</span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tfoot>
                             </table>
                             *) 이외 정리되지 않았거나 진행을 하지 않은 것은 제외.
+
+                            <div class="_page">
+                                <span data-key="1" class="active page-no" onclick="gotoPage(1)">1</span>
+                                <span data-key="2" class="page-no" onclick="gotoPage(2)">2</span>
+                                <span data-key="3" class="page-no" onclick="gotoPage(3)">3</span>
+                                <span data-key="4" class="page-no" onclick="gotoPage(4)">4</span>
+                            </div>
                         </div>
                         <br />
 
+                        <div id="_jobRefSubPRA">
+
+                        </div>
 
                         <div class="_jobRefSubPR" id="_bf_jrSubPR1">
                             <h3>외주 웹 개발</h3>
@@ -2640,7 +2638,124 @@
         <script src="/assets/js/breakpoints.min.js"></script>
         <script src="/assets/js/util.js"></script>
         <script src="/assets/js/main.js"></script>
+        <style>
+._page{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr 3fr;
+}
+.page-no{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    cursor: pointer;
+    margin: 0.4em;
+    border: 0.2em solid grey;
+    border-radius: 0.5em;
+}
+.page-no.active{
+    color: darkgreen !important;
+    border: 0.2em solid darkgreen !important;
+    border-radius: 0.5em;
+}
+            
+        </style>
         <script>
+
+            var pageNo = 1;
+            const pageSize = 20;
+            var title = '';
+
+            function gotoPage(no) {
+                pageNo = no;
+                $('.page-no').removeClass('active');
+                $('.page-no[data-key='+no+']').addClass('active');
+                fetchMyhistory();
+            }
+            function fetchMyhistory(){
+                const path = 'https://api.botbinoo.link/portpolio-api/project/bf-history?offset=1&pageNo='+pageNo+'&pageSize='+pageSize+'&title='+title;
+
+                $.ajax({
+                    url : path,
+                    type : 'get',
+                    dataType : 'json',
+                    success : function(res) {
+                        if(!res.result) {
+                            alert('aws API 통신에 실패하였습니다.');
+                            return;
+                        }
+                        if(!res.data || !res.data.list) {
+                            alert('aws API 통신에 실패하였습니다. - API 오류');
+                            return;
+                        }
+                        const list = res.data.list;
+                        makeTag(list);
+                        const page = res.data.page;
+                        makePage(page);
+                    }
+                });
+            }
+            function makeTag(list){
+                var tmpOpTag = '';
+                var tmpPedTag = '';
+
+                for(var idx = 0; idx < count(list); idx++) {
+                    tmpOpTag = tmpOpTag 
+                        + '<tr>'
+                        +'    <td><span style="cursor:pointer" onclick="bf_ppr_toggle.refSubPR('+list[idx].id+');">'+list[idx].title+'</span></td>'
+                        +'    <td>'+ list[idx].role_groups.map(rg => rg.role.name) +'</td>'
+                        +'    <td>'+list[idx].sub_title+'</td>'
+                        +'</tr>';
+                    tmpPedTag = tmpPedTag
+                        + '<div class="_jobRefSubPR" id="_bf_jrSubPR'+list[idx].id+'">'
+                        + '    <h3>'+list[idx].role_groups.map(rg => rg.role.name)+'</h3>'
+                        + '    <h5>'+list[idx].title+'</h5>'
+                        + '    <h5>'+(list[idx].started_at && list[idx].started_at != '9999-12-30 00:00:00'
+                            ? todate(list[idx].started_at)
+                            : '-') 
+                        +(list[idx].ended_at && list[idx].ended_at != '9999-12-30 00:00:00'
+                            ? todate(list[idx].ended_at)
+                            : '-')+'</h5>'
+                        + '    <ul class="feature-icons">'
+                        + '        <li class="fa-coffee _role">'+list[idx].role_groups.map(rg => rg.role.name)+'</li>'
+                        + (list[idx].url 
+                            ? '<li class="fa-book"><a href="'+list[idx].url+'" target="_blank">링크</a></li>'
+                            : '')
+                        + (list[idx].source_url 
+                            ? '<li class="fa-book"><a href="'+list[idx].source_url+'" target="_blank">문서/소스</a></li>'
+                            : '')
+                        + '    </ul>'
+                        + '    <div class="features">'
+                        + '        <article>'
+                        + '            <div>'
+                        + '                <h4>'+list[idx].sub_title+'</h4>'
+                        + '                <ul>'
+                        + '                    <ol style="list-style-type : lower-roman;">'
+                            + list[idx].contents
+                        + '                    </ol>'
+                        + '                </ul>'
+                        + '            </div>'
+                        + (list[idx].attach_groups.length > 1 
+                            ? list[idx].attach_groups.join(atg => '<a href="#" class="image"><img src="'+atg.file.web_path+'" alt="'+atg.file.file_name+'" /></a>')
+                            : '')
+                        + '        </article>'
+                        + '    </div>'
+                        + '</div>';
+                }
+                $('#_pj_op').html(tmpOpTag);
+                $('#_jobRefSubPRA').html(tmpPedTag);
+            }
+            function makePage(page){
+                // 아직 수량이 부족해서 페이지네이션을 리로딩할 필요없음.
+                var tmpPage = ''; 
+                for(var idx = 0; idx < page.total_pages; idx++){
+                    tmpPage = tmpPage 
+                        + '<span data-key="'+(idx+1)+'" class="page-no '+(page.request_page == (idx+1) ? 'active' : '')+'" onclick="gotoPage('+(idx+1)+')">'+(idx+1)+'</span>';
+                }
+                $('._page').html(tmpPage);
+            }
+
             var bf_ppr_toggle = {
                 refPR: function (rowNo) {
                     $("._jobRefPR").hide();
@@ -2663,8 +2778,13 @@
 
             $("._jobRefSubPR").hide();
             $("#_bf_jrSubPR" + 1).show();
+
+            $(document).ready(function(){
+                gotoPage(1);
+            });
         </script>
         <script>
+            /*
             $('.page-no').on('click', function(){
                 const pageNo = $(this).text();
                 $('.pj_page').hide();
@@ -2672,6 +2792,7 @@
             });
             $('.pj_page').hide();
             $('.pj_page_1').show();
+            */
         </script>
 
     </body>
