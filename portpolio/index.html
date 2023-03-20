@@ -90,7 +90,7 @@
                                 <tbody>
                                     <tr>
                                         <td><a href="#!" onclick="bf_ppr_toggle.refPR(10);">(주) 코드아이디어</a></td>
-                                        <td>2021.07.20 ~ (현재) [1년+]</td>
+                                        <td>2021.07.20 ~ 2023.03.07 [1년+]</td>
                                         <td><a href="#!" onclick="bf_ppr_toggle.refPR(10);">SW 개발 및 유지보수</a></td>
                                     </tr>
                                     <tr>
@@ -504,7 +504,7 @@
                                 <li>
                                     <h5>다양한 플랫폼 개발 및 런칭 이후 유지보수 지원</h5>
                                     <ul>
-                                        <li>기간 : 2021.07.20 ~ (현재)</li>
+                                        <li>기간 : 2021.07.20 ~ 2023.03.07</li>
                                         <li>소속 : 개발팀</li>
                                         <li>장소 : 서울 강서 마곡나루 / 재택</li>
                                         <li>사용스킬 : Spring-boot (Java/JPA), Laravel (PHP), MySQL + mongo + redis, docker</li>
@@ -542,12 +542,32 @@
                         </p>
 
                         <div class="table-wrapper">
+                            <div style="
+                                display: inline-flex;
+                                padding: 20px;
+                                text-align: right;
+                                flex-direction: row;
+                                justify-content: flex-end;
+                                align-items: center;
+                                width: 100%;
+                            ">
+                                <span>
+                                    &nbsp;
+                                </span>
+                                <span style="padding-right: 30px;">
+                                    <input type="text" value="" name="searchText" id="searchText" placeholder="조회할 값을 입력해주세요" onkeyup="search()">
+                                </span>
+                                <span>
+                                    <button id="btnSearch" class="scrolly active button primary large" onclick="search()">조회</button>
+                                </span>
+                            </div>
+
                             <table>
                                 <thead>
                                     <tr>
                                         <th>내용</th>
                                         <th>담당 역할</th>
-                                        <th>실 운영여부</th>
+<!--                                        <th>실 운영여부</th> -->
                                     </tr>
                                 </thead>
                                 <!-- 크고 작은 프로젝트 분할 필요, tag성 DB관리 필요함. -->
@@ -737,6 +757,13 @@
             const pageSize = 20;
             var title = '';
 
+            function search(){
+                if(window.event.keyCode == 13){ 
+                    console.log(window.event.keyCode);
+                    title = $('#searchText').val();
+                    gotoPage(1);
+                }
+            }
             function gotoPage(no) {
                 pageNo = no;
                 $('.page-no').removeClass('active');
@@ -744,7 +771,7 @@
                 fetchMyhistory();
             }
             function fetchMyhistory(){
-                const path = 'https://api.botbinoo.link/portpolio-api/project/bf-history?offset=1&pageNo='+pageNo+'&pageSize='+pageSize+'&title='+title;
+                const path = 'http://api.botbinoo.link/portpolio-api/project/bf-history?offset=1&pageNo='+pageNo+'&pageSize='+pageSize+'&title='+title;
 
                 $.ajax({
                     url : path,
@@ -769,6 +796,9 @@
             function todate(strdt){
                 return strdt.split(' ')[0];
             }
+            function isNotNullOrEmpty(str) {
+                return !str && str !== null && str != '';
+            }
             function makeTag(list){
                 var tmpOpTag = '';
                 var tmpPedTag = '';
@@ -778,7 +808,7 @@
                         + '<tr>'
                         +'    <td><span style="cursor:pointer" onclick="bf_ppr_toggle.refSubPR('+list[idx].id+');">'+list[idx].title+'</span></td>'
                         +'    <td>'+ list[idx].role_groups.map(rg => rg.role.name) +'</td>'
-                        +'    <td>'+list[idx].sub_title+'</td>'
+//                        +'    <td>'+list[idx].sub_title+'</td>'
                         +'</tr>';
                     tmpPedTag = tmpPedTag
                         + '<div class="_jobRefSubPR" id="_bf_jrSubPR'+list[idx].id+'">'
@@ -792,10 +822,10 @@
                             : ' -')+'</h5>'
                         + '    <ul class="feature-icons">'
                         + '        <li class="fa-coffee _role">'+list[idx].role_groups.map(rg => rg.role.name)+'</li>'
-                        + (list[idx].url 
+                        + (isNotNullOrEmpty(list[idx].url) 
                             ? '<li class="fa-book"><a href="'+list[idx].url+'" target="_blank">링크</a></li>'
                             : '')
-                        + (list[idx].source_url 
+                        + (isNotNullOrEmpty(list[idx].source_url) 
                             ? '<li class="fa-book"><a href="'+list[idx].source_url+'" target="_blank">문서/소스</a></li>'
                             : '')
                         + '    </ul>'
@@ -818,6 +848,7 @@
                 }
                 $('#_pj_op').html(tmpOpTag);
                 $('#_jobRefSubPRA').html(tmpPedTag);
+                $('#_jobRefSubPRA').hide(); // 너무 길어서 가독성이 떨어짐
             }
             function makePage(page){
                 // 아직 수량이 부족해서 페이지네이션을 리로딩할 필요없음.
