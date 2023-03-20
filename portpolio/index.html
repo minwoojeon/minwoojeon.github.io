@@ -772,7 +772,7 @@
                 fetchMyhistory();
             }
             function fetchMyhistory(){
-                const path = 'http://api.botbinoo.link/portpolio-api/project/bf-history?offset=1&pageNo='+pageNo+'&pageSize='+pageSize+'&title='+title;
+                const path = 'http://api.botbinoo.link/portpolio-api/project/bf-history?offset=1&pageNo='+pageNo+'&pageSize='+pageSize+'&contents='+title;
 
                 $.ajax({
                     url : path,
