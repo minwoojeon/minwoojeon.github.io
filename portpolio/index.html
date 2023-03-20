@@ -134,7 +134,7 @@
                                     &nbsp;
                                 </span>
                                 <span style="padding-right: 30px;">
-                                    <input type="text" value="" name="searchText" id="searchText" placeholder="조회할 값을 입력해주세요" onkeyup="search()">
+                                    <input type="text" value="" name="searchText" id="searchText" placeholder="조회할 값을 입력해주세요" onkeyup="searchEnter()">
                                 </span>
                                 <span>
                                     <button id="btnSearch" class="scrolly active button primary large" onclick="search()">조회</button>
@@ -300,12 +300,14 @@
             var title = '';
             var roleTag = '';
 
-            function search(){
+            function searchEnter(){
                 if(window.event.keyCode == 13){ 
-                    console.log(window.event.keyCode);
-                    title = $('#searchText').val();
-                    gotoPage(1);
+                    search();
                 }
+            }
+            function search(){
+                title = $('#searchText').val();
+                gotoPage(1);
             }
             function gotoPage(no) {
                 pageNo = no;
@@ -315,6 +317,7 @@
                 fetchMyhistory((list, page) => {
                     makeTag(list);
                     makePage(page);
+                    return true;
                 });
             }
             function loadMyCertifications(){
@@ -330,6 +333,7 @@
                             +'</tr>';
                     }
                     $('#_bf_jrCerti').html($('#_bf_jrCerti').html() + tmpOpTag);
+                    return true;
                 });
                 roleTag = '자격증';
                 fetchMyhistory((list, page) => {
@@ -343,6 +347,7 @@
                             +'</tr>';
                     }
                     $('#_bf_jrCerti').html($('#_bf_jrCerti').html() + tmpOpTag);
+                    return true;
                 });
             }
             function loadMyJobs(){
@@ -401,6 +406,8 @@
                     $('#_jobRefHead').html(tmpOpTag);
                     $('#_jobRefPed').html(tmpPedTag);
                     $('#_jobRefPed').hide();
+
+                    return true;
                 });
             }
 
@@ -414,15 +421,16 @@
                     success : function(res) {
                         if(!res.result) {
                             alert('aws API 통신에 실패하였습니다.');
-                            return;
+                            return false;
                         }
                         if(!res.data || !res.data.list) {
                             alert('aws API 통신에 실패하였습니다. - API 오류');
-                            return;
+                            return false;
                         }
                         const list = res.data.list;
                         const page = res.data.page;
                         fnCallbackMakeTag(list, page);
+                        return true;
                     }
                 });
             }
@@ -431,6 +439,16 @@
             }
             function isNotNullOrEmpty(str) {
                 return !str && str !== null && str != '';
+            }
+            function makeAttachImg(list){
+                var tmpTag = '';
+                for(var idx = 0; idx < list.length; idx++) {
+                    if(list[idx].file.web_path == '') {
+                        continue;
+                    }
+                    tmpTag = tmpTag + '<a href="#" class="image"><img src="'+list[idx].file.web_path+'" alt="'+list[idx].file.file_name+'" /></a>';
+                }
+                return tmpTag;
             }
             function makeTag(list){
                 var tmpOpTag = '';
@@ -473,7 +491,7 @@
                         + '                </ul>'
                         + '            </div>'
                         + (list[idx].attach_groups.length > 1 
-                            ? list[idx].attach_groups.join(atg => '<a href="#" class="image"><img src="'+atg.file.web_path+'" alt="'+atg.file.file_name+'" /></a>')
+                            ? makeAttachImg(list[idx].attach_groups)
                             : '')
                         + '        </article>'
                         + '    </div>'
