@@ -99,6 +99,9 @@
                             </table>
                         </div>
                         <br />
+                        <div id="_jobRefPed">
+                            <!-- use REST API -->
+                        </div>
 
                         <ul class="actions">
                             <li><a href="#two" class="scrolly active button primary large">다른 경력보기</a></li>
@@ -315,7 +318,7 @@
                 });
             }
             function loadMyCertifications(){
-                roleTag = '자격증';
+                roleTag = '수상';
                 fetchMyhistory((list, page) => {
                     var tmpOpTag = '';
                     for(var idx = 0; idx < list.length; idx++) {
@@ -328,7 +331,7 @@
                     }
                     $('#_bf_jrCerti').html($('#_bf_jrCerti').html() + tmpOpTag);
                 });
-                roleTag = '수상';
+                roleTag = '자격증';
                 fetchMyhistory((list, page) => {
                     var tmpOpTag = '';
                     for(var idx = 0; idx < list.length; idx++) {
@@ -351,7 +354,12 @@
                         tmpOpTag = tmpOpTag 
                             + '<tr>'
                             +'    <td><span style="cursor:pointer" onclick="bf_ppr_toggle.refPR('+list[idx].id+');">'+list[idx].title+'</span></td>'
-                            +'    <td>'+ list[idx].role_groups.map(rg => rg.role.name) +'</td>'
+                            +'    <td>'+ (list[idx].started_at && list[idx].started_at != '0000-01-01 00:00:00'
+                                ? todate(list[idx].started_at)
+                                : '-') 
+                            +(list[idx].ended_at && list[idx].ended_at != ' ~ 9999-12-30 00:00:00'
+                                ? ' ~ ' + todate(list[idx].ended_at)
+                                : ' -') +'</td>'
     //                        +'    <td>'+list[idx].sub_title+'</td>'
                             +'</tr>';
                         tmpPedTag = tmpPedTag
@@ -391,8 +399,8 @@
                             + '</div>';
                     }
                     $('#_jobRefHead').html(tmpOpTag);
-                    $('._jobRefPR').html(tmpPedTag);
-                    $('._jobRefPR').hide();
+                    $('#_jobRefPed').html(tmpPedTag);
+                    $('#_jobRefPed').hide();
                 });
             }
 
