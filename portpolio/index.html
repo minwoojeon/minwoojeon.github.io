@@ -437,7 +437,7 @@
                     }, error: function(){
                         console.log('aws API 통신에 실패하였습니다.');
 
-                        let fileName = 'job';
+                        let fileName = '';
                         switch(roleTag) {
                             case '직무': fileName = 'job'; break;
                             case '자격증': fileName = 'certi2'; break;
@@ -445,9 +445,9 @@
                             default: 
                                 if(!pageNo || pageNo == 1) {
                                     fileName = 'p1';
-                                } else if(pageNo == 1) {
+                                } else if(pageNo == 2) {
                                     fileName = 'p2';
-                                } else if(pageNo == 1) {
+                                } else if(pageNo == 3) {
                                     fileName = 'p3';
                                 } else {
                                     fileName = 'p4';
