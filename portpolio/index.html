@@ -335,20 +335,23 @@
                     $('#_bf_jrCerti').html($('#_bf_jrCerti').html() + tmpOpTag);
                     return true;
                 });
-                roleTag = '자격증';
-                fetchMyhistory((list, page) => {
-                    var tmpOpTag = '';
-                    for(var idx = 0; idx < list.length; idx++) {
-                        tmpOpTag = tmpOpTag 
-                            + '<tr>'
-                            +'    <td>'+list[idx].title+'</td>'
-                            +'    <td>'+list[idx].sub_title+'</td>'
-                            +'    <td>O</td>'
-                            +'</tr>';
-                    }
-                    $('#_bf_jrCerti').html($('#_bf_jrCerti').html() + tmpOpTag);
-                    return true;
-                });
+                setTimeout(function(){
+                    
+                    roleTag = '자격증';
+                    fetchMyhistory((list, page) => {
+                        var tmpOpTag = '';
+                        for(var idx = 0; idx < list.length; idx++) {
+                            tmpOpTag = tmpOpTag 
+                                + '<tr>'
+                                +'    <td>'+list[idx].title+'</td>'
+                                +'    <td>'+list[idx].sub_title+'</td>'
+                                +'    <td>O</td>'
+                                +'</tr>';
+                        }
+                        $('#_bf_jrCerti').html($('#_bf_jrCerti').html() + tmpOpTag);
+                        return true;
+                    });
+                }, 200);
             }
             function loadMyJobs(){
                 roleTag = '직무';
@@ -563,12 +566,18 @@
             $("#_bf_jrSubPR" + 1).show();
 
             $(document).ready(function(){
-                loadMyCertifications(); 
-                loadMyJobs();
+                setTimeout(() => {
+                    loadMyCertifications(); 
+                }, 100);
+
+                setTimeout(() => {
+                    loadMyJobs();
+                }, 1000);
+
                 setTimeout(() => {
                     roleTag = '';
                     gotoPage(1);
-                }, 200);
+                }, 1400);
             });
         </script>
         <script>
