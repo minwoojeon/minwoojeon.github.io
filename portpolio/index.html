@@ -452,8 +452,8 @@
                                 break;
                         }
                         fetch('https://minwoojeon.github.io/portpolio/' + fileName + '.json')
-                            .then((res) => {
-                                console.log("response:", res);
+                            .then(async (res) => {
+                                console.log("response:", res); res = await res.text(); res = JSON.parse(res);
                                 const list = res.data.list;
                                 const page = res.data.page;
                                 fnCallbackMakeTag(list, page);
