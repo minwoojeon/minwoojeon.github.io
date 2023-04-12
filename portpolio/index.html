@@ -431,6 +431,34 @@
                         const page = res.data.page;
                         fnCallbackMakeTag(list, page);
                         return true;
+                    }, error: function(){
+                        console.log('aws API 통신에 실패하였습니다.');
+
+                        let fileName = 'job';
+                        switch(roleTag) {
+                            case '직무': fileName = 'job'; break;
+                            case '자격증': fileName = 'certi2'; break;
+                            case '수상': fileName = 'certi1'; break;
+                            default: 
+                                if(!pageNo || pageNo == 1) {
+                                    fileName = 'p1';
+                                } else if(pageNo == 1) {
+                                    fileName = 'p2';
+                                } else if(pageNo == 1) {
+                                    fileName = 'p3';
+                                } else {
+                                    fileName = 'p4';
+                                }
+                                break;
+                        }
+                        fetch('https://minwoojeon.github.io/portpolio/' + fileName + '.json', options)
+                            .then((response) => {
+                                console.log("response:", response);
+                                const list = res.data.list;
+                                const page = res.data.page;
+                                fnCallbackMakeTag(list, page);
+                            })
+                            .catch((error) => console.log("error:", error));
                     }
                 });
             }
