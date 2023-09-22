@@ -468,7 +468,11 @@
                 });
                 */
                 if(!histories || !histories.data) {
-                    loadJson((fn) => fetchMyhistory(fnCallbackMakeTag));
+                    setTimeout(() => {
+                        loadJson((fn) => {
+                            fetchMyhistory(fnCallbackMakeTag);
+                        });
+                    }, 200);
                     return false;
                 }
                 var dlist = histories;
@@ -509,6 +513,8 @@
                             fnCallback(histories);
                         })
                         .catch((error) => console.log("error:", error));
+                } else {
+                    fnCallback(histories);
                 }
             }
             function todate(strdt){
