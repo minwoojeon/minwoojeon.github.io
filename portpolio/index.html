@@ -313,7 +313,7 @@
                 pageNo = no;
                 $('.page-no').removeClass('active');
                 $('.page-no[data-key='+no+']').addClass('active');
-                roleTag = '';
+                roleTag = '	사이드 프로젝트';
                 fetchMyhistory((list, page) => {
                     makeTag(list);
                     makePage(page);
@@ -415,6 +415,8 @@
             }
 
             function fetchMyhistory(fnCallbackMakeTag){
+                // NOTICE: aws 서비스 비용문제로 서버 로직과 유사한 코드를 별도로 작성
+                /*
                 const path = 'https://ztmaplz26dmpko6q4xgbhewumi0sibzs.lambda-url.us-east-1.on.aws/portpolio-api/project/bf-history?offset=1&pageNo='+pageNo+'&pageSize='+pageSize+'&contents='+title+'&role_name='+roleTag;
 
                 $.ajax({
@@ -464,6 +466,50 @@
                             .catch((error) => console.log("error:", error));
                     }
                 });
+                */
+                if(!histories || !histories.data) {
+                    loadJson((fn) => fetchMyhistory(fnCallbackMakeTag));
+                    return false;
+                }
+                var dlist = histories;
+
+                switch(roleTag) {
+                    case '직무': dlist = dlist.filter(h => h.role_groups.filter(rs => rs.id == 1).length > 1); break;
+                    case '사이드 프로젝트': dlist = dlist.filter(h => h.role_groups.filter(rs => rs.id == 2).length > 1); break;
+                    case '자격증': dlist = dlist.filter(h => h.role_groups.filter(rs => rs.id == 3).length > 1); break;
+                    case '수상': dlist = dlist.filter(h => h.role_groups.filter(rs => rs.id == 4).length > 1); break;
+                    default: 
+                        dlist = dlist.filter(h => h.role_groups.filter(rs => rs.id != 1).length > 1); break;
+                        break;
+                }
+                if(title && title != '') {
+                    dlist = dlist.filter(h => h.title.indexOf(title) > -1);
+                }
+                const total_page_n = Math.floor(dlist.length / pageSize) + (dlist.length % pageSize == 0 ? 0 : 1);
+                const dpage = {
+                    total_data_cnt: dlist.length,
+                    total_pages: total_page_n,
+                    request_page: pageNo,
+                    request_size: pageSize,
+                    last_page: (total_page_n == pageNo),
+                    first_page: (pageNo == 1)
+                };
+                fnCallbackMakeTag(dlist, dpage);
+            }
+            var histories = {};
+            function loadJson(fnCallback){
+                
+                if(!histories || !histories.data) {
+                    fetch('https://minwoojeon.github.io/portpolio/p1.json')
+                        .then(async (res) => {
+                            res = await res.text(); 
+                            res = JSON.parse(res);
+                            histories = res.data.list;
+
+                            fnCallback(histories);
+                        })
+                        .catch((error) => console.log("error:", error));
+                }
             }
             function todate(strdt){
                 return strdt.split(' ')[0];
