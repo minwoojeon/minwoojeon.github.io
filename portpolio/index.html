@@ -468,14 +468,12 @@
                 });
                 */
                 if(!histories || !histories.data) {
-                    setTimeout(() => {
-                        loadJson((fn) => {
-                            fetchMyhistory(fnCallbackMakeTag);
-                        });
-                    }, 200);
+                    loadJson(() => {
+                        fetchMyhistory(fnCallbackMakeTag);
+                    });
                     return false;
                 }
-                var dlist = histories;
+                var dlist = histories.data;
 
                 switch(roleTag) {
                     case '직무': dlist = dlist.filter(h => h.role_groups.filter(rs => rs.id == 1).length > 1); break;
@@ -508,7 +506,7 @@
                         .then(async (res) => {
                             res = await res.text(); 
                             res = JSON.parse(res);
-                            histories = res.data.list;
+                            histories.data = res.data.list;
 
                             fnCallback(histories);
                         })
