@@ -487,6 +487,7 @@
                 if(title && title != '') {
                     dlist = dlist.filter(h => h.title.indexOf(title) > -1);
                 }
+                dlist = dlist.slice((pageNo-1)*pageSize, (pageNo)*pageSize);
                 const total_page_n = Math.floor(dlist.length / pageSize) + (dlist.length % pageSize == 0 ? 0 : 1);
                 const dpage = {
                     total_data_cnt: dlist.length,
