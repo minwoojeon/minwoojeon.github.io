@@ -1,0 +1,4031 @@
+{
+    "result": true,
+    "msg": null,
+    "data": {
+        "list": [
+            {
+                "id": 80,
+                "title": "웅진헬스원 - 소분판매플랫폼 텔레마케터용 추가 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "history_id": 80,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "history_id": 80,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "history_id": 80,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>외부계 API 연동(웅진 ERP DB, 코스맥스엔비티 API, 카카오알림톡 API, 헥토파이낸셜, NHN KCP 결제 API 등</li><li>텔레마케터 전용 대리결제 프로세스 구현</li><li>텔레마케터용 실적 확인용 엑셀 다운로드/구매 소분제품 통계 구현</li><li>방문판매자용 로그인/판매 실적 확인 화면 구현</li>",
+                "started_at": "2023-05-09 00:00:00",
+                "ended_at": "2023-08-11 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 79,
+                "title": "대우산업개발 - 서버 통합 및 이관",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "history_id": 79,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "history_id": 79,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    },
+                    {
+                        "history_id": 79,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "history_id": 67,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>혼재된 홈페이지(4종)에 대해 IDC -> AWS cloud 신규 서버로의 이전 작업 진행</li><li>DNS설정(bind9) 및 AWS 내 백업설정, cloud watch 붙여서 알림 오도록 작업</li>",
+                "started_at": "2023-04-11 00:00:00",
+                "ended_at": "2023-05-21 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 78,
+                "title": "AWS Certified Developer – Associate",
+                "url": "https://www.credly.com/badges/6621ab0a-0180-44c5-a90a-b9c84173c014/public_url",
+                "source_url": "https://www.credly.com/badges/6621ab0a-0180-44c5-a90a-b9c84173c014/public_url",
+                "role_groups": [
+                    {
+                        "id": 139,
+                        "history_id": 78,
+                        "role_id": 3,
+                        "role": {
+                            "id": 3,
+                            "name": "자격증"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 79,
+                        "history_id": 78,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "Amazon Web Services Training and Certification",
+                "contents": "<div data-iframe-width=\"150\" data-iframe-height=\"270\" data-share-badge-id=\"6621ab0a-0180-44c5-a90a-b9c84173c014\" data-share-badge-host=\"https://www.credly.com\"></div><script type=\"text/javascript\" async src=\"//cdn.credly.com/assets/utilities/embed.js\"></script>",
+                "started_at": "2023-03-08 00:00:00",
+                "ended_at": "2026-03-08 00:00:00",
+                "created_at": "2023-03-08 20:48:00",
+                "deleted": "N"
+            },
+            {
+                "id": 77,
+                "title": "(주) 코드아이디어",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 77,
+                        "history_id": 77,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 77,
+                        "history_id": 77,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "SI / SM 프로젝트 개발 및 지원",
+                "contents": "<li>\n                                    <h5>다양한 플랫폼 개발 및 런칭 이후 유지보수 지원</h5>\n                                    <ul>\n                                        <li>기간 : 2021.07.20 ~ 2023.03.07</li>\n                                        <li>소속 : 개발팀</li>\n                                        <li>장소 : 서울 강서 마곡나루 / 재택</li>\n                                        <li>사용스킬 : Spring-boot (Java/JPA), Laravel (PHP), MySQL + mongo + redis, docker</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>oVice (일본 메타버스) 개발 지원</li>\n                                            <li>토닥 (의학 문진) 플랫폼 전체 개발 (백엔드, 프론트엔드: 퍼블리싱 제외) - 문진 출제, 문진별 가중치 설정, 회원관리, 컨텐츠 게시판류 관리, 사용자 화면 바인딩+validation</li>\n                                            <li>그린패스 (코로나 위치추적 인증) 플랫폼 전체 개발 (RN 어플, 백엔드, 프론트엔드: 퍼블리싱 제외) - sns 로그인 연동, 문자 본인인증, NFC 태그, 위치정보 인증 개발, 관리자/매장 관리자별 화면 개발, 인증지표 통계 화면 구현, 회원관리, 컨텐츠 게시판류 관리, 사용자 화면 바인딩+validation</li>\n                                            <li>메디박스 (미용/의료 서비스 브랜딩 예약) 플랫폼 웹 전체 개발 (백엔드, 프론트엔드: 어플/퍼블리싱 제외) - 문자 본인인증, 포인트 기반 결제/취소/환불 구현, 매장 예약 기능, 관리자/매장 관리자별 화면 개발, 상품/할인(쿠폰/이벤트/바우처/그룹핑) 기능, 회원관리, 컨텐츠 게시판류 관리, 사용자 화면 바인딩+validation</li>\n                                            <li>모아 (모임 중개) 플랫폼 유지보수 (백엔드+프론트) - 카카오 알림톡 연동, 회원 승인 오류 수정, 모임 기능 오류 및 검색 오류등 flow 에서 수정</li>\n                                            <li>컨스퀘어 (현장 사고관련 체크리스트) 플랫폼 API 개발 (백엔드) - 문자 본인인증, 초대 메일 기능, 구매등급별 권한 구분, 회원관리, 컨텐츠 게시판류 관리 API 구현</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2021-07-20 00:00:00",
+                "ended_at": "2023-03-07 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 76,
+                "title": "(주) 에루샤",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 76,
+                        "history_id": 76,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 76,
+                        "history_id": 76,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "로그인 SNS 연동 개발",
+                "contents": "<li>\n                                    <h5>로그인 SNS 연동 개발</h5>\n                                    <ul>\n                                        <li>기간 : 2022.08.16 ~ 2022.10.06</li>\n                                        <li>소속 : 개발팀</li>\n                                        <li>장소 : 서울 강서 마곡중앙로 / 재택</li>\n                                        <li>사용스킬 : Spring (Java/JSTL), MySQL</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>사내 온라인 커머스 중개 플랫폼 개발의 유지보수 작업</li>\n                                            <li>로그인 SNS (네이버, 카카오, 구글)의 스키마 구조, 연동 구현, 기존 데이터와 마이그레이션 작업</li>\n                                            <li>상품 메일링 서비스 관련 데이터베이스 뷰 수정</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2022-08-16 00:00:00",
+                "ended_at": "2022-10-06 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 75,
+                "title": "(주) 마블러스",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 75,
+                        "history_id": 75,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 75,
+                        "history_id": 75,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "API 설계 및 개발",
+                "contents": "<li>\n                                    <h5>커머스 일부 API 기능 개발 지원, 교육앱 API 개발</h5>\n                                    <ul>\n                                        <li>기간 : 2021.07.19 ~ 2022.07.20</li>\n                                        <li>소속 : 본사 서버 개발팀</li>\n                                        <li>장소 : 서울 강남 / 재택</li>\n                                        <li>사용스킬 : Spring-boot (Java/JPA), MySQL + mongo + redis, docker</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>사내 API 설계/개발 작업</li>\n                                            <li>사내 커머스 API 오류 수정/개선 개발 작업</li>\n                                            <li>교육앱 API 개발 작업</li>\n                                            <li>TC 작성, 지라를 통한 업무 대응</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2021-07-19 00:00:00",
+                "ended_at": "2022-07-19 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 74,
+                "title": "(주) 위티",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 74,
+                        "history_id": 74,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 74,
+                        "history_id": 74,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "유튜버 편집자용 플랫폼 백엔드 및 프론트 개발",
+                "contents": "<li>\n                                    <h5>유튜버/편집자향 플랫폼 개발 작업</h5>\n                                    <ul>\n                                        <li>기간 : 2020.10.23 ~ 2021.07.09</li>\n                                        <li>소속 : 본사 플랫폼 개발팀</li>\n                                        <li>장소 : 서울 서교동 본사</li>\n                                        <li>사용스킬 : Spring-boot (Java/JPA/Quartz), MariaDB, GCP (server platform)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>신규 회사 플랫폼 솔루션 설계/개발 작업</li>\n                                            <li>내부 커뮤니케이션의 조율 및 개발 방향성 재고</li>\n                                            <li>centOS(리눅스) 서버 관리(계정/권한/용량/비용) 및 로그정보 분석</li>\n                                            <li>관리자 웹(war/sh) 배포 관리</li>\n                                            <li>API (war/sh) 배포 관리</li>\n                                            <li>외부계 연동 배치 (war/sh) 배포 관리 및 트러블 슈팅</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2020-10-23 00:00:00",
+                "ended_at": "2021-07-09 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 73,
+                "title": "(주) 한빛 에듀",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 73,
+                        "history_id": 73,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 73,
+                        "history_id": 73,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "대회 플랫폼 유지보수 및 개발",
+                "contents": "<li>\n                                    <h5>주산/암산 웹/앱 프로그램 유지보수/서버운영 및 개발 작업</h5>\n                                    <ul>\n                                        <li>기간 : 2019.09.21 ~ (현재)</li>\n                                        <li>소속 : 앱/서버 개발</li>\n                                        <li>장소 : 원격근무 (건 by 건)</li>\n                                        <li>사용스킬 : Android, APM (PHP, MySQL, Apache), Flash(Animator CC+), Java(Spring-boot, Quartz, Lombock)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>기 개발 및 인수된 내역을 기준으로 추가 수정 개발 관리</li>\n                                            <li>Flash 산출물 Html5로 컨버팅 작업</li>\n                                            <li>대회 학생 성적 데이터 처리 및 신규 룰 적용, 앱 수정 배포</li>\n                                            <li>보안 처리 및 쉘 스크립팅 처리</li>\n                                            <li>대규모 중국 트래픽 차단 및 해킹 방어, 실시간 공격 대응</li>\n                                            <li>IDC에서 클라우드로 이전 작업</li>\n                                        </ol>\n                                    </ul>\n                                </li>\n                                <li>\n                                    <h5>2020 제 8회 마인드스포츠 암산대회 플랫폼 수정개발 작업</h5>\n                                    <ul>\n                                        <li>기간 : 2020.11.21 ~ 2020.12.30</li>\n                                        <li>소속 : 앱/서버 개발</li>\n                                        <li>장소 : 원격근무</li>\n                                        <li>사용스킬 : Android, APM (PHP, MySQL, Apache), Java(Spring-boot, Quartz, Lombock)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>마인드스포츠 암산대회와 관련한 개발 작업 전반 수행</li>\n                                            <li>긴급 오류 사항에 대한 대응</li>\n                                            <li>대회 학생 성적 데이터 처리 및 신규 룰 적용, 앱 수정 배포</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2019-09-21 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 72,
+                "title": "(주) 에듀랩",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 72,
+                        "history_id": 72,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 72,
+                        "history_id": 72,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "사내(프뢰벨) 교육 플랫폼 유지보수",
+                "contents": "<li>\n                                    <h5>유-초등 교육계 시스템 유지보수/서버관리 및 개발 작업</h5>\n                                    <ul>\n                                        <li>기간 : 2019.06.24 ~ 2020.10.14</li>\n                                        <li>소속 : 본사 서버 개발팀</li>\n                                        <li>장소 : 대치동 본사</li>\n                                        <li>사용스킬 : Spring F/W, Spring-boot (Java/JSP/JPA), SSMS(MSSQL), Android Studio(Java)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>신규 개발된 학습앱/교사앱/부모앱/대외계 ERP-API/내부 백오피스/관리툴 등의 시스템 관리</li>\n                                            <li>기 개발 및 인수된 내역을 기준으로 추가 수정 개발 관리</li>\n                                            <li>centOS(리눅스) 서버 관리(계정/권한/용량/비용) 및 로그정보 분석</li>\n                                            <li>웹/앱(war/apk/sh) 배포 관리</li>\n                                            <li>서버 컨텐츠 최종 검수 및 업로드 처리</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2019-06-24 00:00:00",
+                "ended_at": "2020-10-14 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 71,
+                "title": "(주) 우창홀딩스",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 71,
+                        "history_id": 71,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 71,
+                        "history_id": 71,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "유진투자증권 선물 RMS 유지보수",
+                "contents": "<li>\n                                    <h5>증권사 Risk Management System 개발 작업</h5>\n                                    <ul>\n                                        <li>기간 : 2019.04.26 ~ 2019.06.18</li>\n                                        <li>소속 : 본사 SW 개발팀</li>\n                                        <li>장소 : 여의도 본사</li>\n                                        <li>사용스킬 : C#, c++</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>기존 증권사 RMS 프로그램의 크리티컬한 오류 수정작업</li>\n                                            <li>증권사 API를 이용한 신규 RMS 프로그램 개발작업</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2019-04-26 00:00:00",
+                "ended_at": "2019-06-18 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 70,
+                "title": "Pefer",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 70,
+                        "history_id": 70,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 70,
+                        "history_id": 70,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "KT SM 프로젝트",
+                "contents": "<li>\n                                    <h5>기업로밍 상품 및 플랫폼 개발 프로젝트</h5>\n                                    <ul>\n                                        <li>기간 : 2018.06.01~2018.08.31</li>\n                                        <li>소속 : 오더 ≫ 상품 프로젝트 팀</li>\n                                        <li>장소 : 분당 KT 본사 사옥</li>\n                                        <li>사용스킬 : ProObject (Java 백엔드), Nexacro (Javascript UI), Orange(Oracle)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>신규 기업형 로밍 부가서비스 상품 23종 및 요금제 1종에 대한 쿼리 작업</li>\n                                            <li>외부계 연계 (BCSP) 간 입력값 Validation 작업</li>\n                                            <li>신규 부가서비스 상품 23종에 대한 운영툴에서의 가입시 제어 화면 추가 및 서버 처리</li>\n                                            <li>가입 중 상품 VOC에 의한 서비스 기간/갯수 제어 화면 추가 및 서버 처리</li>\n                                            <li>환불 및 위약금 정보 서버 전달(요금온라인팀으로의 AP간 연동) 및 환불 취소, 위약 취소에 대한 상품측 서버 연동제어</li>\n                                        </ol>\n                                    </ul>\n                                </li>\n                                <li>\n                                    <h5>물류 체계 혁신 프로젝트 1차</h5>\n                                    <ul>\n                                        <li>기간 : 2018.09.01~2018.11.30</li>\n                                        <li>소속 : 유통 ≫ 물류 프로젝트 팀</li>\n                                        <li>장소 : 분당 KT 본사 사옥</li>\n                                        <li>사용스킬 : ProObject (Java 백엔드), Nexacro (Javascript UI), Orange(Oracle)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>신규 물류 처리 로직에 대한 대응하는 단말기 배송, 인수거부 서버 처리 작업.</li>\n                                            <li>HUB간 물류 이동에 대한 대행처리사로의 매핑 테이블 추가.</li>\n                                            <li>GIS 연동 테이블 개발에 따른 인터페이스 테이블 추가 및 템프 처리.</li>\n                                            <li>아이폰 데모 단말 미 출고 대리점에 대한 실 단말 출고제한 로직 개발.</li>\n                                        </ol>\n                                    </ul>\n                                </li>\n                                <li>\n                                    <h5>물류 체계 혁신 프로젝트 2차</h5>\n                                    <ul>\n                                        <li>기간 : 2018.12.01~2018.12.31</li>\n                                        <li>소속 : 유통 ≫ 물류 프로젝트 팀</li>\n                                        <li>장소 : 분당 KT 본사 사옥</li>\n                                        <li>사용스킬 : ProObject (Java 백엔드), Nexacro (Javascript UI), Orange(Oracle)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>1차 작업에 대한 고도화 작업</li>\n                                            <li>신규 물류지점에 대한 제한적 SMS 전달 과제 수행을 위한 테이블 설계</li>\n                                            <li>유통팀 전용 HUB 물류지점별 담당자 배정 화면 추가 및 서버 작업.</li>\n                                        </ol>\n                                    </ul>\n                                </li>\n                                <li>\n                                    <h5>비통신 상품 구조 수용 프로젝트</h5>\n                                    <ul>\n                                        <li>기간 : 2019.01.01~2019.02.28</li>\n                                        <li>소속 : 유통 ≫ 물류 프로젝트 팀</li>\n                                        <li>장소 : 분당 KT 본사 사옥</li>\n                                        <li>사용스킬 : ProObject (Java 백엔드), Nexacro (Javascript UI), Orange(Oracle)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>비통신 상품 구조에 대한 유/무선 물류 로직 영향도 파악 참여</li>\n                                            <li>수정 개발 설계 및 문서 작성</li>\n                                            <li>공통 코드 변경 (명칭변경) 및 타팀 제공 연동 API 수정개발</li>\n                                            <li>물류 테스트 진행 (연동계 제외)</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2018-06-01 00:00:00",
+                "ended_at": "2019-02-28 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 69,
+                "title": "(주) 펜타큐브",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 69,
+                        "history_id": 69,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 69,
+                        "history_id": 69,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "기판 도면 검증 window 유지보수",
+                "contents": "<li>\n                                    <h5>전자 도면 검증 룰 개발 작업</h5>\n                                    <ul>\n                                        <li>기간 : 2018.03.05 ~ 2018.04.28</li>\n                                        <li>소속 : 본사 SW 개발팀</li>\n                                        <li>장소 : 수원 성균관대학교내 펜타큐브 사무실</li>\n                                        <li>사용스킬 : C#</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>OJT 및 기간별 C# 세미나</li>\n                                            <li>검증 룰 개발</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2018-03-05 00:00:00",
+                "ended_at": "2018-04-28 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 68,
+                "title": "애드캡슐소프트",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 68,
+                        "history_id": 68,
+                        "role_id": 1,
+                        "role": {
+                            "id": 1,
+                            "name": "직무"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 68,
+                        "history_id": 68,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "SW 파견 개발",
+                "contents": "<li>\n                                    <h5>kobus 통합 홈페이지 리뉴얼 사업 지원</h5>\n                                    <ul>\n                                        <li>기간 : 2017.01.02~2017.03.31</li>\n                                        <li>소속 : 본사 개발팀</li>\n                                        <li>장소 : 서울 고속버스터미널 고층 내 개발실</li>\n                                        <li>사용스킬 : Spring F/W (Java/JSP), Toad(Oracle)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>부가상품, 영수증, 일부 컨텐츠 페이지에 대한 연동 및 백엔드 개발</li>\n                                            <li>다국어 번역본을 보고 동일 페이지가 재사용되게끔 모델처리 개발</li>\n                                        </ol>\n                                    </ul>\n                                </li>\n                                <li>\n                                    <h5>롯데렌터카 홈페이지 리뉴얼 사업 지원</h5>\n                                    <ul>\n                                        <li>기간 : 2017.05.24~2017.07.13</li>\n                                        <li>소속 : 본사 개발팀</li>\n                                        <li>장소 : 선릉 KT 타워 롯데렌터카</li>\n                                        <li>사용스킬 : Spring F/W (Java/JSP), Toad(Oracle)</li>\n                                        <li>상세 작업</li>\n                                        <ol style=list-style-type : lower-roman;>\n                                            <li>개인정보 SAP화 작업 및 연동 백엔드 개발</li>\n                                            <li>관리자 게시판 일부 백엔드 개발</li>\n                                        </ol>\n                                    </ul>\n                                </li>",
+                "started_at": "2017-01-01 00:00:00",
+                "ended_at": "2017-07-13 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 67,
+                "title": "웅진헬스원 - 소분판매플랫폼 (백세건강 문진 포함) 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 67,
+                        "history_id": 67,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 137,
+                        "history_id": 67,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 67,
+                        "history_id": 67,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 115,
+                        "history_id": 67,
+                        "file_id": 37,
+                        "file": {
+                            "id": 37,
+                            "file_name": "1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/1.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 116,
+                        "history_id": 67,
+                        "file_id": 38,
+                        "file": {
+                            "id": 38,
+                            "file_name": "2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/2.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 117,
+                        "history_id": 67,
+                        "file_id": 39,
+                        "file": {
+                            "id": 39,
+                            "file_name": "3.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/3.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 118,
+                        "history_id": 67,
+                        "file_id": 40,
+                        "file": {
+                            "id": 40,
+                            "file_name": "4.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/4.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 119,
+                        "history_id": 67,
+                        "file_id": 41,
+                        "file": {
+                            "id": 41,
+                            "file_name": "5.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/5.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 120,
+                        "history_id": 67,
+                        "file_id": 42,
+                        "file": {
+                            "id": 42,
+                            "file_name": "6.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/6.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 121,
+                        "history_id": 67,
+                        "file_id": 43,
+                        "file": {
+                            "id": 43,
+                            "file_name": "7.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/7.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 122,
+                        "history_id": 67,
+                        "file_id": 44,
+                        "file": {
+                            "id": 44,
+                            "file_name": "8.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/8.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 123,
+                        "history_id": 67,
+                        "file_id": 45,
+                        "file": {
+                            "id": 45,
+                            "file_name": "9.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/9.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 124,
+                        "history_id": 67,
+                        "file_id": 46,
+                        "file": {
+                            "id": 46,
+                            "file_name": "10.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2023/woongjin/10.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>외부계 API 연동(웅진 ERP API, 코스맥스엔비티 API, 카카오알림톡 API, 등</li><li>주문/정기구독/결제/배송/취소/대리결제 프로세스 구현</li><li>엑셀 다운로드/구매 소분제품 통계 구현</li><li>백세 건강 설문/상담 구현</li>",
+                "started_at": "2022-11-24 00:00:00",
+                "ended_at": "2023-02-16 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 65,
+                "title": "워커몬 어플 로딩 이슈 최적화 및 수정",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 65,
+                        "history_id": 65,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 135,
+                        "history_id": 65,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 65,
+                        "history_id": 65,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>iOS 에서는 문제가 없으나 AOS 어플 실행시 로딩(스플래쉬)activity 가 너무 오래 노출되는 원인을 확인하고 최적화 수행</li>",
+                "started_at": "2022-11-21 00:00:00",
+                "ended_at": "2022-11-24 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 64,
+                "title": "모아 플랫폼 유지보수 수정 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 64,
+                        "history_id": 64,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 134,
+                        "history_id": 64,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 64,
+                        "history_id": 64,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>모임 관리/게스트 모임 신청 오류 수정</li><li>결제/부분취소/환불 오류 수정</li><li>카카오 연동 및 외부계 연동 작업</li>",
+                "started_at": "2022-07-19 00:00:00",
+                "ended_at": "2022-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 63,
+                "title": "evers NFT민팅 구현",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 63,
+                        "history_id": 63,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 133,
+                        "history_id": 63,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 63,
+                        "history_id": 63,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>OG/WL/일반 민터의 구매, 제한, 비용 등의 기본 기능 Solidity로 구현</li>\n                                                <li>리빌, 이미지 리소스 AWS 관리형태로 개발</li>\n                                                <li>1차 거래이후 남는 재고를 2차 거래에 그대로 사용할 수 있도록 제어로직 구현</li>\n                                                <li>민팅 종료시 민팅 결과를 뽑을 수 있도록 통계 데이터 구현(화면X, OG/WL/일반 판매관련 총량/비용/비율 등의 정보 출력)</li>",
+                "started_at": "2022-04-18 00:00:00",
+                "ended_at": "2022-04-29 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 62,
+                "title": "메디박스 서비스 구축 작업 1차",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 62,
+                        "history_id": 62,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 132,
+                        "history_id": 62,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 62,
+                        "history_id": 62,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 105,
+                        "history_id": 62,
+                        "file_id": 27,
+                        "file": {
+                            "id": 27,
+                            "file_name": "1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/1.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 106,
+                        "history_id": 62,
+                        "file_id": 28,
+                        "file": {
+                            "id": 28,
+                            "file_name": "2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/2.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 107,
+                        "history_id": 62,
+                        "file_id": 29,
+                        "file": {
+                            "id": 29,
+                            "file_name": "3.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/3.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 108,
+                        "history_id": 62,
+                        "file_id": 30,
+                        "file": {
+                            "id": 30,
+                            "file_name": "admin_1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/admin_1.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 109,
+                        "history_id": 62,
+                        "file_id": 31,
+                        "file": {
+                            "id": 31,
+                            "file_name": "admin_2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/admin_2.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 110,
+                        "history_id": 62,
+                        "file_id": 32,
+                        "file": {
+                            "id": 32,
+                            "file_name": "admin_3.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/admin_3.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 111,
+                        "history_id": 62,
+                        "file_id": 33,
+                        "file": {
+                            "id": 33,
+                            "file_name": "admin_4.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/admin_4.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 112,
+                        "history_id": 62,
+                        "file_id": 34,
+                        "file": {
+                            "id": 34,
+                            "file_name": "admin_5.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/admin_5.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 113,
+                        "history_id": 62,
+                        "file_id": 35,
+                        "file": {
+                            "id": 35,
+                            "file_name": "admin_6.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/medibox/admin_6.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 114,
+                        "history_id": 62,
+                        "file_id": 36,
+                        "file": {
+                            "id": 36,
+                            "file_name": "012946.mp4",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/012516.mp4",
+                            "type": 10,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>관리자/사용자 퍼블리싱을 받아 기능(API 연동, validation 처리, 기획서에 요구된 화면이동이나 알럿 처리 등) 구현</li>\n                                                <li>라라벨을 이용한 관리자/사용자용 API 구현 (스웨거 구현X)</li>\n                                                <li>포인트 결제, 환불, 적립에 대한 기능 구현</li>\n                                                <li>화면에 보여지는, 라라벨 모든 기능 작업(세팅부터 빌드-배포까지)</li>",
+                "started_at": "2022-02-13 00:00:00",
+                "ended_at": "2022-03-11 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 61,
+                "title": "그린패스 서비스 프로젝트 1차(한국/베트남/라오스)",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 61,
+                        "history_id": 61,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 131,
+                        "history_id": 61,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 61,
+                        "history_id": 61,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 98,
+                        "history_id": 61,
+                        "file_id": 20,
+                        "file": {
+                            "id": 20,
+                            "file_name": "1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/1.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 99,
+                        "history_id": 61,
+                        "file_id": 21,
+                        "file": {
+                            "id": 21,
+                            "file_name": "2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/2.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 100,
+                        "history_id": 61,
+                        "file_id": 22,
+                        "file": {
+                            "id": 22,
+                            "file_name": "3.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/3.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 101,
+                        "history_id": 61,
+                        "file_id": 23,
+                        "file": {
+                            "id": 23,
+                            "file_name": "4.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/4.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 102,
+                        "history_id": 61,
+                        "file_id": 24,
+                        "file": {
+                            "id": 24,
+                            "file_name": "admin_1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/admin_1.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 103,
+                        "history_id": 61,
+                        "file_id": 25,
+                        "file": {
+                            "id": 25,
+                            "file_name": "admin_2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/admin_2.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 104,
+                        "history_id": 61,
+                        "file_id": 26,
+                        "file": {
+                            "id": 26,
+                            "file_name": "012516.mp4",
+                            "web_path": "https://minwoojeon.github.io/images/2022/greenpass/012516.mp4",
+                            "type": 10,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>관리자/사용자 퍼블리싱을 받아 기능(API 연동, validation 처리, 기획서에 요구된 화면이동이나 알럿 처리 등) 구현</li>\n                                                <li>라라벨을 이용한 관리자/사용자용 API 구현 (스웨거 구현X)</li>\n                                                <li>SNS 로그인 연동(OAuth), SMS 문자 연동, 제휴사(관리자) 메일 연동</li>\n                                                <li>엑셀 다운로드/그래프 구현 등 화면에 보여지는, 라라벨 모든 기능 작업(세팅부터 빌드-배포까지)</li>",
+                "started_at": "2021-10-18 00:00:00",
+                "ended_at": "2022-02-13 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 60,
+                "title": "COSMAX-NBT 정기 유지 보수",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 60,
+                        "history_id": 60,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 130,
+                        "history_id": 60,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 60,
+                        "history_id": 60,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 95,
+                        "history_id": 60,
+                        "file_id": 17,
+                        "file": {
+                            "id": 17,
+                            "file_name": "1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/cosmaxnbt/1.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 96,
+                        "history_id": 60,
+                        "file_id": 18,
+                        "file": {
+                            "id": 18,
+                            "file_name": "2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/cosmaxnbt/2.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 97,
+                        "history_id": 60,
+                        "file_id": 19,
+                        "file": {
+                            "id": 19,
+                            "file_name": "3.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2022/cosmaxnbt/3.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>FR) 쿠폰 정렬 기준 수정</li>\n                                                <li>ADM) 엑셀과 관련된 기능 개편 (회원 관리, 구매내역 관리, 재배송관리)</li>\n                                                <li>ADM) 관리자 기능 수정</li>\n                                                <li>서버 이관(관련 사이트 7종), 스케일 아웃(스토리지 업)</li>\n                                                <li>ADM) 결제, 정기배송 및 연단위 정기 유지보수</li>",
+                "started_at": "2021-06-01 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 59,
+                "title": "weMX 모뎀 통신 서비스 웹 파트 일부 연동 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 59,
+                        "history_id": 59,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 129,
+                        "history_id": 59,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 59,
+                        "history_id": 59,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>마더 모뎀의 네트워크 구성 변경 서비스를 웹 자바스크립트 단에서 호출</li>\n                                                <li>특정 타깃 디바이스의 네트워크 방식을 확인하고(이더넷인지, 시리얼인지) 이를 구분하여 통신 구성을 수정할 수 있는 화면을 제공하고, 실제 수정이 되도록 구현</li>",
+                "started_at": "2021-06-09 00:00:00",
+                "ended_at": "2021-06-14 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 58,
+                "title": "ABC-EGGS 체험단 모집 데이터 수집 알고리즘 수정",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 58,
+                        "history_id": 58,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 128,
+                        "history_id": 58,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 58,
+                        "history_id": 58,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>국내 DB 추가</li>\n                                                <li>해외(호주) 본사 DB 추가</li>\n                                                <li>상호 다른 서버에 대한 TR 처리 (화면에서 싱크 작업)</li>",
+                "started_at": "2021-05-31 00:00:00",
+                "ended_at": "2021-06-06 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 57,
+                "title": "KEMA ACADEMY 기 개발된 기능들의 오류 수정 및 개선 작업 (1차)",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 57,
+                        "history_id": 57,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 127,
+                        "history_id": 57,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 57,
+                        "history_id": 57,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>수강 관련 기능 일부 수정(수강 신청/취소에서 선행 학습의 이수 여부 체크, 입문 미 이수자 심화 수강 불가 등 서비스 추가, 등 LMS 기능 수정)</li>\n                                                <li>모바일 회원가입 화면 및 기능 개발</li>\n                                                <li>이외 조직 변경 등 작은 컨텐츠 수정 작업</li>",
+                "started_at": "2021-04-13 00:00:00",
+                "ended_at": "2021-05-31 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 56,
+                "title": "대국민 실종자 찾기 프로젝트 1차",
+                "url": "-",
+                "source_url": "https://minwoojeon.github.io/services/%EB%AF%B8%EC%8B%B1%ED%94%BC%ED%94%8C%ED%9E%88%EC%96%B4%EB%A1%9C/",
+                "role_groups": [
+                    {
+                        "id": 56,
+                        "history_id": 56,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 126,
+                        "history_id": 56,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 56,
+                        "history_id": 56,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "실종자 찾기 프로젝트",
+                "contents": "<li>화면 설계서 작성, 개발 인력 섭외, 업무 진행</li>\n                                                <li>AWS 서버 구성, ERD 및 테이블 설계, 경찰청 I/F 연동 설계</li>\n                                                <li>API 설계 및 구현, 이슈 트래킹(노션 + 깃헙 칸반)</li>\n                                                <li>SSL 인증서 적용, TOMCAT 세팅 등</li><li><a href=\"https://minwoojeon.github.io/services/%EB%AF%B8%EC%8B%B1%ED%94%BC%ED%94%8C%ED%9E%88%EC%96%B4%EB%A1%9C/\" target=\"_blank\">산출물 정리</a></li>",
+                "started_at": "2019-07-05 00:00:00",
+                "ended_at": "2021-04-12 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 55,
+                "title": "페이지 부스 사이트 신규 구축 프로젝트",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 55,
+                        "history_id": 55,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 125,
+                        "history_id": 55,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 55,
+                        "history_id": 55,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 83,
+                        "history_id": 55,
+                        "file_id": 5,
+                        "file": {
+                            "id": 5,
+                            "file_name": "페이지부스1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021pagebooth/%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B6%80%EC%8A%A41.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 84,
+                        "history_id": 55,
+                        "file_id": 6,
+                        "file": {
+                            "id": 6,
+                            "file_name": "페이지부스2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021pagebooth/%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B6%80%EC%8A%A42.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 85,
+                        "history_id": 55,
+                        "file_id": 7,
+                        "file": {
+                            "id": 7,
+                            "file_name": "페이지부스3.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021pagebooth/%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B6%80%EC%8A%A43.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 86,
+                        "history_id": 55,
+                        "file_id": 8,
+                        "file": {
+                            "id": 8,
+                            "file_name": "페이지부스4.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021pagebooth/%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B6%80%EC%8A%A44.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 87,
+                        "history_id": 55,
+                        "file_id": 9,
+                        "file": {
+                            "id": 9,
+                            "file_name": "페이지부스5.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021pagebooth/%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B6%80%EC%8A%A45.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 88,
+                        "history_id": 55,
+                        "file_id": 10,
+                        "file": {
+                            "id": 10,
+                            "file_name": "페이지부스6.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021pagebooth/%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B6%80%EC%8A%A46.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>기획서를 토대로 기능(API 개발후 화면 연동까지) 개발</li>\n                                                <li>파일 업로드, 게시물 처리(CRUD 이하 처리), 회원 처리, 댓글 처리, 부스 처리, 링크 처리, 마커 처리, 테마/템플릿 처리, 설정 관리</li>\n                                                <li>비밀번호 찾기 메일 발송 작업, 부스 커넥션 생성시 메일 발송 작업</li>\n                                                <li>SSL 인증서 및 자동 리다이렉트 작업, 방화벽 및 서버 파일 등 기본적인 TOMCAT 세팅</li>",
+                "started_at": "2021-02-16 00:00:00",
+                "ended_at": "2021-03-24 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 54,
+                "title": "자재 관리 및 견적 산출 프로그램의 자재 테이블 코드 분류, 자동 금액 산출 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 54,
+                        "history_id": 54,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 124,
+                        "history_id": 54,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 54,
+                        "history_id": 54,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 80,
+                        "history_id": 54,
+                        "file_id": 2,
+                        "file": {
+                            "id": 2,
+                            "file_name": "simplex_자재코드 작업1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021adone/simplex_%EC%9E%90%EC%9E%AC%EC%BD%94%EB%93%9C%20%EC%9E%91%EC%97%851.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 81,
+                        "history_id": 54,
+                        "file_id": 3,
+                        "file": {
+                            "id": 3,
+                            "file_name": "simplex_자재코드 작업2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021adone/simplex_%EC%9E%90%EC%9E%AC%EC%BD%94%EB%93%9C%20%EC%9E%91%EC%97%852.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 82,
+                        "history_id": 54,
+                        "file_id": 4,
+                        "file": {
+                            "id": 4,
+                            "file_name": "simplex_자재코드 작업3.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021adone/simplex_%EC%9E%90%EC%9E%AC%EC%BD%94%EB%93%9C%20%EC%9E%91%EC%97%853.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>단가관리 자재 품목(종류), 재질, 세부재질, 구분, 단가 도출이 가능하도록 자재 분류체계 수정 (마스터 스키마 설계 변경)</li>\n                                                <li>단가관리 자재 품목 조회부분 상기 요구조건에 부합하도록 수정</li>\n                                                <li>견적관리 자재 품목(종류), 재질, 세부재질, 구분, 단가 도출이 자동으로 수량별 변경되도록 수정(API 추가 2종)</li>\n                                                <li>견적관리 등록/수정 오류 수정</li>",
+                "started_at": "2021-03-10 00:00:00",
+                "ended_at": "2021-03-23 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 53,
+                "title": "삼원제지 공식 홈페이지와 인스타 내용 연동 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 53,
+                        "history_id": 53,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 123,
+                        "history_id": 53,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 53,
+                        "history_id": 53,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 89,
+                        "history_id": 53,
+                        "file_id": 11,
+                        "file": {
+                            "id": 11,
+                            "file_name": "삼원제지_인스타연동.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021samwon/%EC%82%BC%EC%9B%90%EC%A0%9C%EC%A7%80_%EC%9D%B8%EC%8A%A4%ED%83%80%EC%97%B0%EB%8F%99.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 90,
+                        "history_id": 53,
+                        "file_id": 12,
+                        "file": {
+                            "id": 12,
+                            "file_name": "삼원제지_인스타연동2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021samwon/%EC%82%BC%EC%9B%90%EC%A0%9C%EC%A7%80_%EC%9D%B8%EC%8A%A4%ED%83%80%EC%97%B0%EB%8F%992.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>인스타 앱등록, 연동 API 연결</li>\n                                                <li>인스타 업로드 내용중 이미지 등록 연동</li>",
+                "started_at": "2021-02-28 00:00:00",
+                "ended_at": "2021-03-02 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 52,
+                "title": "2021년 우아성 한의원 홈페이지 리뉴얼 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 52,
+                        "history_id": 52,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 122,
+                        "history_id": 52,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 52,
+                        "history_id": 52,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>화면 기획서와 디자인을 기준으로 화면 퍼블리싱(메인+서브)</li>\n                                                <li>기능 수정에 대한 php api 수정(자가진단)</li>\n                                                <li>관리자 팝업 기능 추가 및 일반 사용자 프론트 화면 연동</li>\n                                                <li>관리자 발송(메일/문자) 관리 기능 추가 개발</li>",
+                "started_at": "2021-01-12 00:00:00",
+                "ended_at": "2021-03-31 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 51,
+                "title": "2021년 서울플러스 치과 홈페이지 리뉴얼 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 51,
+                        "history_id": 51,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 121,
+                        "history_id": 51,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 51,
+                        "history_id": 51,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 91,
+                        "history_id": 51,
+                        "file_id": 13,
+                        "file": {
+                            "id": 13,
+                            "file_name": "서울플러스 치과 작업1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021seoulplus/%EC%84%9C%EC%9A%B8%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%B9%98%EA%B3%BC%20%EC%9E%91%EC%97%851.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 92,
+                        "history_id": 51,
+                        "file_id": 14,
+                        "file": {
+                            "id": 14,
+                            "file_name": "서울플러스 치과 작업2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/2021seoulplus/%EC%84%9C%EC%9A%B8%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%B9%98%EA%B3%BC%20%EC%9E%91%EC%97%852.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>디자인에 맞는 메인 퍼블리싱 진행</li>\n                                                <li>유튜브 채널 연동(서울플러스 서버에 등록된 유튜브 영상만) 데이터 노출 및 페이징 처리</li>\n                                                <li>예약 일부 기능 수정</li>",
+                "started_at": "2020-11-25 00:00:00",
+                "ended_at": "2020-12-02 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 50,
+                "title": "두청위편 한의원 외부계 서비스(닥톡/네이버 지식인) 연동 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 50,
+                        "history_id": 50,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 120,
+                        "history_id": 50,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 50,
+                        "history_id": 50,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>닥톡 API 에 따른 네이버 지식인 데이터 추가 부분 연동 개발</li>\n                                                <li>추가한 내역 노출 개발</li>",
+                "started_at": "2020-08-03 00:00:00",
+                "ended_at": "2020-08-06 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 49,
+                "title": "여자인 한의원 보약 랜딩 페이지 개발 및 문자 서비스(SMS 대행사) 연동 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 49,
+                        "history_id": 49,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 119,
+                        "history_id": 49,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 49,
+                        "history_id": 49,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>알리고 API 에 따른 문자 전송 연동 개발</li>\n                                                <li>문자 전송 이력 관리자쪽에 누적되도록 수정</li>",
+                "started_at": "2020-07-03 00:00:00",
+                "ended_at": "2020-07-15 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 48,
+                "title": "제 8회 마인드스포츠 암산 대회 플랫폼 개발 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 48,
+                        "history_id": 48,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 118,
+                        "history_id": 48,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 48,
+                        "history_id": 48,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hPyYxXbqwY8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><li>요구사항에 맞는 플랫폼 설계/개발 진행</li><li>주산/암산 경기대회 및 교사/학생 관련 신규 개발</li>",
+                "started_at": "2020-11-21 00:00:00",
+                "ended_at": "2020-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 47,
+                "title": "전자정부 JWT 토큰 서비스 개발 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 47,
+                        "history_id": 47,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 117,
+                        "history_id": 47,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 47,
+                        "history_id": 47,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>JWT 토큰을 활용한 토큰 식별 서비스 제공</li>\n                                                <li>만료 처리에 대해 DB 연동 처리</li>",
+                "started_at": "2020-12-10 00:00:00",
+                "ended_at": "2020-12-15 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 46,
+                "title": "크롬 익스텐션 앱 기능 수정 개발 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 46,
+                        "history_id": 46,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 116,
+                        "history_id": 46,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 46,
+                        "history_id": 46,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>특정 용어에 대한 마스킹 처리 크롬 익스텐션 앱 수정작업</li>\n                                                <li>비속어 몇가지 테스트 진행</li>",
+                "started_at": "2020-12-08 00:00:00",
+                "ended_at": "2020-12-15 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 45,
+                "title": "신규 공공누리 플레이어 개발 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 45,
+                        "history_id": 45,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 115,
+                        "history_id": 45,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 45,
+                        "history_id": 45,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    },
+                    {
+                        "id": 93,
+                        "history_id": 45,
+                        "file_id": 15,
+                        "file": {
+                            "id": 15,
+                            "file_name": "1.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/player/1.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    },
+                    {
+                        "id": 94,
+                        "history_id": 45,
+                        "file_id": 16,
+                        "file": {
+                            "id": 16,
+                            "file_name": "2.PNG",
+                            "web_path": "https://minwoojeon.github.io/images/2021/player/2.PNG",
+                            "type": 1,
+                            "create_time": "2023-03-20 17:05:36"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>문화정보원 공공누리 특강 플레이어 개발 작업</li>\n                                                <li>플레이어 기본 기능 신규 개발 및 컨텐츠 연동 처리</li>\n                                                <li>문화체육관광부 산하 SR에 대한 배포 이슈 대응 포함</li>",
+                "started_at": "2020-09-13 00:00:00",
+                "ended_at": "2020-12-23 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 44,
+                "title": "Epub 온라인 e북 소스 수정 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 44,
+                        "history_id": 44,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 114,
+                        "history_id": 44,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 44,
+                        "history_id": 44,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>공식 e북 파일에 대한 바이너리 오픈 후 소스 수정후 재배포</li>",
+                "started_at": "2020-10-29 00:00:00",
+                "ended_at": "2020-11-03 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 43,
+                "title": "가상화폐 전송 대행사 수식오류 제어 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 43,
+                        "history_id": 43,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 113,
+                        "history_id": 43,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 43,
+                        "history_id": 43,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>수수료 및 금액 산정 부분의 누락함수 구현작업</li>\n                                                <li>필요한 라이브러리가 누락된 이슈 사항 정리/전달 및 삽입 작업</li>\n                                                <li>DOM 충돌나는 태그에 대한 해결 작업</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 42,
+                "title": "NH저축은행 Validation 오류 수정 및 모바일 전화걸기 추가",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 42,
+                        "history_id": 42,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 112,
+                        "history_id": 42,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 42,
+                        "history_id": 42,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>기존 함수가 누락되어 발생하던 오류 픽스</li>\n                                                <li>IE에서만 동작하는 오류 수정.</li>\n                                                <li>전화걸기 기능 추가</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 41,
+                "title": "쿠팡 파트너스 API + 구글앱스크립트 연동 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 41,
+                        "history_id": 41,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 111,
+                        "history_id": 41,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 41,
+                        "history_id": 41,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>쿠팡 파트너스 API 에서 제공하는 예제중 가장 가능한 범주에서 샘플 컨버팅</li>\n                                                <li>컨버팅 내용을 토대로 구글앱스크립트(자바스크립트)로 샘플링을 적용하는 작업.</li>\n                                                <li>사용방법 안내</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 40,
+                "title": "특정사 DART(금융감독원 전자공시시스템) 삽입 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 40,
+                        "history_id": 40,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 110,
+                        "history_id": 40,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 40,
+                        "history_id": 40,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>자바스크립트를 통한 DOM 세팅시 일자별 특정 소스값 수정 작업</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 39,
+                "title": "WP(워드프레스) 이관이후 결제 모듈 누락 함수 구현 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 39,
+                        "history_id": 39,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 109,
+                        "history_id": 39,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 39,
+                        "history_id": 39,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>워드프레스 충돌인지 이관상 누락인지는 알지 못하나 선언되지 않은 함수를 호출하는 문제에 대한 구현작업</li>\n                                                <li>워드프레스라는 레퍼런스를 다른 곳에 설치하고 주요 훅들을 검사함</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 38,
+                "title": "백오피스 톰캣 6.0 -> 톰캣 8.X DynamicWeb으로 컨버팅 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 38,
+                        "history_id": 38,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 108,
+                        "history_id": 38,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 38,
+                        "history_id": 38,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>기존 jsp 다이렉트 구조에서 DynamicWeb 구조로 구조 변경 작업(동봉된 레지스터와 엑셀 설정 작업 병행)</li>\n                                                <li>일부 파일의 문자포맷이 한국컴퓨터와 호환되지 않아(일어 전용 포맷) 이 부분 담당자와 문의후 작업</li>\n                                                <li>자바 1.8과 호환되지 않는 함수에 대해 새롭게 정의하여 돌아갈 수 있도록 수정 작업</li>\n                                                <li>더 이상 호환되지 않는 라이브러리를 제외하고 최신 버전으로 교체/빌드 작업</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 37,
+                "title": "머꺼리 사이드바/메인 애니메이션 및 이벤트 수정 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 37,
+                        "history_id": 37,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 107,
+                        "history_id": 37,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 37,
+                        "history_id": 37,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>사이드 바에 대한 사용자별 애니메이션 수정작업</li>\n                                                <li>메인 화면 텍스트 애니메이션 등 경쟁사와 비교하여 기능 추가 작업</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 36,
+                "title": "청소업체 CMS 대금 배치 처리 로직 수정 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 36,
+                        "history_id": 36,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 106,
+                        "history_id": 36,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 36,
+                        "history_id": 36,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>주말에는 계좌 이체에 동의한 회원들 정보를 은행에 전달하지 않도록 수정</li>\n                                                <li>이체 고객들의 정보중 회원 상태가 중지인 경우에는 이체배치 파일을 생성하지 않도록 수정</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 35,
+                "title": "공기관 XSS 취약점에 대한 처리",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 35,
+                        "history_id": 35,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 105,
+                        "history_id": 35,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 35,
+                        "history_id": 35,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>관리자 로그인 부분 비밀번호 횟수 등 접속제한 로직 추가</li>\n                                                <li>스크립트, 인젝션 대비 사용자 입력값 필터 추가</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 34,
+                "title": "해외 API - Zalo 연동 샘플 파일 작성 및 문서 정리",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 34,
+                        "history_id": 34,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 104,
+                        "history_id": 34,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 34,
+                        "history_id": 34,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>해외 API 적용 샘플 개발</li>\n                                                <li>쉽게 사용 및 분석 가능하도록 문서화 작업</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 33,
+                "title": "중고 상품 해시태그 상거래 프로토 앱 개발 프로젝트",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 33,
+                        "history_id": 33,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 103,
+                        "history_id": 33,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 33,
+                        "history_id": 33,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>신규 창업 회사의 프로토타입 앱을 총괄 개발.</li>\n                                                <li>디자인을 넘겨받아 최초 요구사항 설계, 스키마 설계, 기능 분석</li>\n                                                <li>신규 클라우드 서버 세팅, API 개발, 웹 배포</li>\n                                                <li>신규 안드로이드 앱 개발(API 내용에 따라 화면 출력)</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 32,
+                "title": "히스클린 쇼핑몰 이관에 따른 apache 301 리디렉션 요청",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 32,
+                        "history_id": 32,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 102,
+                        "history_id": 32,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 32,
+                        "history_id": 32,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>URL 에 대한 301 리디렉션/리라이트룰 추가</li>\n                                                <li>파람값에 따라 변조가 필요한 경우, PHP 중계 소스를 통해 리디렉션 될 수 있도록 처리</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 31,
+                "title": "경기도 경제과학진흥원 뉴스레터 월간 간행물 오류 픽스 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 31,
+                        "history_id": 31,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 101,
+                        "history_id": 31,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 31,
+                        "history_id": 31,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>IE 8.0 아래 버전의 브라우저로 접속시 발생하는 오류 수정.</li>\n                                                <li>오류 대응 및 당사로 대안 제시</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 30,
+                "title": "서일 영어학원 실시간 영상촬영 기능개발 지원 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 30,
+                        "history_id": 30,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 100,
+                        "history_id": 30,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 30,
+                        "history_id": 30,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>RTC 예제를 동일하게 사용하였으나 오류가 나오는 현상에 대한 대응 코드 추가</li>\n                                                <li>XE 같은 CMS 솔루션 사용에 대한 가이드 제공</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 29,
+                "title": "종소세 계산 웹 프로그램 작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 29,
+                        "history_id": 29,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 99,
+                        "history_id": 29,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 29,
+                        "history_id": 29,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>종소세 계산 기능 추가</li>\n                                                <li>과세금/산출금 등 간단한 처리로직에 대한 원격 설명</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 28,
+                "title": "SK 브로드밴드 티스토리 공식 블로그 수정작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 28,
+                        "history_id": 28,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 98,
+                        "history_id": 28,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 28,
+                        "history_id": 28,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>기존 템플릿을 이용하되 최소의 영향도로 페이지마다 슬라이더만 제거하는 스크립팅을 추가</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 27,
+                "title": "Javascript 블럭형조립 공학계산기(fabric.js) 개발 및 광운대학생 멘토링",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 27,
+                        "history_id": 27,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 97,
+                        "history_id": 27,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 27,
+                        "history_id": 27,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>요구사항 분석</li>\n                                                <li>방향성 제시, 어려운 부분 개발 리딩해주고 왜 그렇게 했을지 생각해보도록 지도</li>\n                                                <li>QnA 및 산출물을 모두 전달.</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 26,
+                "title": "멜로디 성형외과(melodyps) 상담문의 게시판 수정작업",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 26,
+                        "history_id": 26,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 96,
+                        "history_id": 26,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 26,
+                        "history_id": 26,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>요구사항 분석</li>\n                                                <li>논리 스키마 정의하면서 공통 코드 정의</li>\n                                                <li>일정 관리 및 관계도, 문서 작성</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 25,
+                "title": "K-pop 상품판매 사이트(BTS) 유지보수",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 25,
+                        "history_id": 25,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 95,
+                        "history_id": 25,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 25,
+                        "history_id": 25,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>Cafe24 구매한 디자인소스중 해외에서 접속시 오류가 발생하는 특수한 형태를 원격으로 접속하여 분석및 수정작업 진행</li>\n                                                <li>기존 소스의 로딩 순서 및 라이브러리 충돌 문제 수정</li>\n                                                <li>잘못 정의된 DOM 수정</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 24,
+                "title": "티스토리 자동 블로깅 프로그램 수정개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 24,
+                        "history_id": 24,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 94,
+                        "history_id": 24,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 24,
+                        "history_id": 24,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>티스토리 로그인및 세션 유지 개발</li>\n                                                <li>소스 주석추가 및 블럭화</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 23,
+                "title": "광고 키워드 관리용 대시보드 웹 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 23,
+                        "history_id": 23,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 93,
+                        "history_id": 23,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 23,
+                        "history_id": 23,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "#고객 요구사항 분석 및 설계, 직접 당사와 조율하여 일정 및 트러블 슈팅\n#PHP 를 이용한 브릿지 사이트에 대한 XSS 공격 방어 로직 추가\n#파이어베이스 실시간 DB 이용 로그인 및 게시판(CRUD) 구현\n#브릿지에서 사용할 매핑 키워드 관리용 대시보드 개발",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 22,
+                "title": "하루 5분 생활 중국어 앱 수정 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 22,
+                        "history_id": 22,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 92,
+                        "history_id": 22,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 22,
+                        "history_id": 22,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>고객 요구사항 분석 및 설계, 직접 당사와 조율하여 일정 및 트러블 슈팅</li>\n                                                <li>카카오 스토리/밴드 API와 bit.ly 숏링크 API 연계 공유 기능 구현</li>\n                                                <li>구글 애드몹 처리 방식 및 간편 수정 (strings) 구현</li>\n                                                <li>웹뷰 내 스크립트 및 오류 로직 수정</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 21,
+                "title": "캐릭터 영상 추출 및 배포 자동화시스템 프로그램 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 21,
+                        "history_id": 21,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 91,
+                        "history_id": 21,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 21,
+                        "history_id": 21,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>고객 요구사항 분석 및 설계, 직접 당사와 조율하여 일정 및 트러블 슈팅</li>\n                                                <li>표본 캐릭터들의 경계 주요 색상들을 이용한 군집화를 진행하고 손실이 가장 적은 경계값을 파악하고</li>\n                                                <li>영상분해와 경계값 도출을 통한 배경 삭제 자동화 구현</li>\n                                                <li>최종 출력내용에서 배포가 용이하도록 폴더로 생성.</li>\n                                                <li>설정 파일 및 사용방법 안내 영상 촬영하여 공유.</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 20,
+                "title": "코리아 귀금속 직거래 센터 쇼핑몰 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 20,
+                        "history_id": 20,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 90,
+                        "history_id": 20,
+                        "role_id": 10,
+                        "role": {
+                            "id": 10,
+                            "name": "PHP"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 20,
+                        "history_id": 20,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>고객 요구사항 분석 및 설계, 직접 당사와 조율하여 일정 및 트러블 슈팅</li>\n                                                <li>책임 기획자나 프로젝트 매니저가 얼마나 필요한 사람인가 여실히 깨달음</li>\n                                                <li>상품 구매, 판매, 환불 등 구현하였으나 이니시스 미승인으로 모두 막아둔 상태.</li>\n                                                <li>SNS 로그인 및 게시판 구현</li>\n                                                <li>운영 메뉴얼 및 2번의 해킹 방어하고 모니터링</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 19,
+                "title": ".Net C# MVC 게시판 작업 및 인제대학생 멘토링 진행",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 19,
+                        "history_id": 19,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 89,
+                        "history_id": 19,
+                        "role_id": 15,
+                        "role": {
+                            "id": 15,
+                            "name": "C#"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 19,
+                        "history_id": 19,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>게시판 DB 연동 및 댓글 기능 핵심 로직 구현 및 전달.</li>\n                                                <li>다양한 질의 사항 및 오프라인 미팅 (야탑) 진행</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 18,
+                "title": "LG 유플러스 공식 블로그 비동기 이미지 처리 오류 수정 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 18,
+                        "history_id": 18,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 88,
+                        "history_id": 18,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 18,
+                        "history_id": 18,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>블로그 이미지 대체 작업을 Ajax 후처리로 진행하는데 엑박이 발생하여 수정 개발</li>\n                                                <li>기존 발생하던 충돌 소스와 불필요한 소스에 대한 리뷰 및 오류 수정</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 17,
+                "title": "bitland 회원 계좌 인증 모듈 연동 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 17,
+                        "history_id": 17,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 87,
+                        "history_id": 17,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 17,
+                        "history_id": 17,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>본인인증 방법중 하나인 계좌 인증을 통한 부분의 개발 진행</li>\n                                                <li>코드이그나이터(PHP) 기반과 JSP 기반의 중간 연동 프로그램 제작</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 16,
+                "title": "재주상회 쇼핑몰 금액 오류 수정 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 16,
+                        "history_id": 16,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 86,
+                        "history_id": 16,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 16,
+                        "history_id": 16,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>금액 계산 오류를 정정하고 옵션에 따른 정상 수치가 계산 될 수 있도록 수정</li>\n                                                <li>잘못된 DOM 정의로 인한 충돌 이슈 제기 및 조치</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 15,
+                "title": "[나의 사랑하는 책] 앱 신규 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 15,
+                        "history_id": 15,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 85,
+                        "history_id": 15,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 15,
+                        "history_id": 15,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>네트워크 통신 없이 안드로이드 내장 DB 외 별도의 DB 사용하도록 개발</li>\n                                                <li>로딩구현, 팝업 구현, 싱글턴과 팩토리 패턴으로 기본적인 틀을 잡고, 백그라운드 스레드 관리 및 개발</li>\n                                                <li>TTS 를 통한 성경을 음성으로 출력하도록 개발</li>\n                                                <li>즐겨찾기, 오늘말씀 등 기능 개발</li>\n                                                <li>이미지 뷰 합성 및 UI/UX 개발</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 14,
+                "title": "스프링 문제 출제 게시판",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 14,
+                        "history_id": 14,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 84,
+                        "history_id": 14,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 14,
+                        "history_id": 14,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>팀원 스프링 교육</li>\n                                                <li>공통 모듈 및 유틸 제작</li>\n                                                <li>간단한 게시판 작성</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 13,
+                "title": "React Native - 날씨 가져오기 앱",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 13,
+                        "history_id": 13,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 83,
+                        "history_id": 13,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 13,
+                        "history_id": 13,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>이슈 제기</li>\n                                                <li>코드 리뷰</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 12,
+                "title": "SWF 버퍼 신규 개발",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 12,
+                        "history_id": 12,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 82,
+                        "history_id": 12,
+                        "role_id": 11,
+                        "role": {
+                            "id": 11,
+                            "name": "JS"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 12,
+                        "history_id": 12,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>이미지 렌더 알고리즘중 하나인 더블 버퍼링을 응용한 비동기 출력 함수 작성</li>\n                                                <li>사용방법 전달</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 11,
+                "title": "가치서울 (2018 서울시 앱 개발)",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 11,
+                        "history_id": 11,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 81,
+                        "history_id": 11,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 11,
+                        "history_id": 11,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>Firebase 기반 실시간 DB 스키마 설계 및 연결, 수정/조회</li>\n                                                <li>공공 API 연계, 수정해야할 소스는 언팩(리버싱)하여 개발</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 10,
+                "title": "그루밍 (2016 서울시 앱 개발)",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 10,
+                        "history_id": 10,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 80,
+                        "history_id": 10,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 10,
+                        "history_id": 10,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>MySQL 기반 사용자, 게시판, 현재 날씨와 예상 날씨 등의 DB 스키마 설계, CRUD 서버단 개발</li>\n                                                <li>과거 날씨들의 총량 데이터를 풀 조회하여 일간 예상 날씨의 정합도 배치 체크 및 내용 저장</li>\n                                                <li>안드로이드 - 서버간 통신 유틸 개발</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 9,
+                "title": "얼굴 인식 및 실시간 이미지 합성(캠)",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 9,
+                        "history_id": 9,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 79,
+                        "history_id": 9,
+                        "role_id": 13,
+                        "role": {
+                            "id": 13,
+                            "name": "python"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 9,
+                        "history_id": 9,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>얼굴 학습 예제와 학습 프로그램 예제를 활용하여 주먹 학습</li>\n                                                <li>얼굴 학습 예제를 활용하여 투명한 이미지를 덧 씌우는 실시간 영상 합성 개발</li>\n                                                <li>주먹 학습을 토대로 영상에 임의의 점들을 쳐내면 점수를 얻는 게임 개발</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 8,
+                "title": "탄막 게임 TouHou Another",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 8,
+                        "history_id": 8,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    },
+                    {
+                        "id": 78,
+                        "history_id": 8,
+                        "role_id": 9,
+                        "role": {
+                            "id": 9,
+                            "name": "JAVA"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 8,
+                        "history_id": 8,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "<li>팩토리 패턴을 이용하여 적 유닛 생성 및 싱글턴을 이용한 게임 관리</li>\n                                                <li>무료이미지 검색하여 소스내 애니메이팅 처리</li>\n                                                <li>다양한 리젠 및 공격 패턴 개발</li>\n                                                <li>체력바, 클리어 타임 및 점수판 제공</li>",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 7,
+                "title": "DA 2018 design 공모전 일반부 참여",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 7,
+                        "history_id": 7,
+                        "role_id": 2,
+                        "role": {
+                            "id": 2,
+                            "name": "사이드 프로젝트"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 7,
+                        "history_id": 7,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "DB 설계 학습 및 공부",
+                "contents": "-",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 6,
+                "title": "SQLD",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 6,
+                        "history_id": 6,
+                        "role_id": 3,
+                        "role": {
+                            "id": 3,
+                            "name": "자격증"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 6,
+                        "history_id": 6,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "한국데이터산업진흥원",
+                "contents": "SQLD",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 5,
+                "title": "정보처리기사",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 5,
+                        "history_id": 5,
+                        "role_id": 3,
+                        "role": {
+                            "id": 3,
+                            "name": "자격증"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 5,
+                        "history_id": 5,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "한국산업공단",
+                "contents": "정보처리기사",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 4,
+                "title": "정보처리산업기사",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 4,
+                        "history_id": 4,
+                        "role_id": 3,
+                        "role": {
+                            "id": 3,
+                            "name": "자격증"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 4,
+                        "history_id": 4,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "한국산업공단",
+                "contents": "정보처리산업기사",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 3,
+                "title": "MoS Master",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 3,
+                        "history_id": 3,
+                        "role_id": 3,
+                        "role": {
+                            "id": 3,
+                            "name": "자격증"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 3,
+                        "history_id": 3,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "MicroSoft",
+                "contents": "MoS Master",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 2,
+                "title": "2016 공학교육페스티벌(E2FESTA) 공학밴드 부문 우수상",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 2,
+                        "history_id": 2,
+                        "role_id": 4,
+                        "role": {
+                            "id": 4,
+                            "name": "수상"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 2,
+                        "history_id": 2,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "-",
+                "contents": "-",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            },
+            {
+                "id": 1,
+                "title": "이그나이트 스토리텔링 경진대회 대학부문 동상",
+                "url": "-",
+                "source_url": "-",
+                "role_groups": [
+                    {
+                        "id": 1,
+                        "history_id": 1,
+                        "role_id": 4,
+                        "role": {
+                            "id": 4,
+                            "name": "수상"
+                        }
+                    }
+                ],
+                "attach_groups": [
+                    {
+                        "id": 1,
+                        "history_id": 1,
+                        "file_id": 1,
+                        "file": {
+                            "id": 1,
+                            "file_name": "none",
+                            "web_path": "",
+                            "type": 0,
+                            "create_time": "2023-02-25 14:03:12"
+                        }
+                    }
+                ],
+                "sub_title": "ITC로봇문화협회",
+                "contents": "이그나이트 스토리텔링 경진대회 대학부문 동상",
+                "started_at": "9999-12-30 00:00:00",
+                "ended_at": "9999-12-30 00:00:00",
+                "created_at": "2023-02-25 13:51:50",
+                "deleted": "N"
+            }
+        ],
+        "count": 77,
+        "page": {
+            "total_data_cnt": 77,
+            "total_pages": 4,
+            "request_page": 1,
+            "request_size": 20,
+            "last_page": false,
+            "first_page": true
+        }
+    }
+}
